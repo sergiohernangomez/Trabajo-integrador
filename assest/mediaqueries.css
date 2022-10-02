@@ -108,4 +108,10 @@
     .formulario{
         width: 100%;
     }
-}   
+}
+@media (max-width: 502px){
+    .footer-links{
+        flex-direction: column;
+    }
+}
+   
