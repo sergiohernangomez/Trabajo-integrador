@@ -1,0 +1,111 @@
+@media(max-width:1156px){
+    .portada_img{
+        height: 370px ;
+    }
+}
+@media (max-width: 1027px){
+
+    .navbar-list{
+        gap: 20px;
+    }
+
+    #portada{
+        width: 90%;
+    }
+
+    .portada_img{
+        height: 320px;
+        width: auto;
+    }
+    .contacto-contenedor{
+        gap:40px
+    }
+}
+
+@media (max-width: 842px){
+    .menu-label{
+        display: flex;
+    }
+    .menu-label-img{
+        width: 65px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .navbar-list{
+        position: absolute;
+        top: 75px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #f0ead2;
+        border:2px solid #6c584c;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        align-items: flex-start;
+        display: none;
+    }
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+    #portada{
+        justify-content: center;                                                
+        width: 100%;
+    }
+    .portada-presentacion{
+        align-items: center;
+        text-align: center;
+    }
+    .portada-presentacion h1{
+        font-size: 64px;
+    }
+    .portada-presentacion p{
+        font-size: 24px;
+    }
+    .portada_img{
+        display:none
+    }
+    #nosotros {
+        text-align: center;
+    }
+    .beneficios-cards{
+        flex-direction: column;
+    }
+    #adoptar{
+        text-align: center;
+    }
+    #donaciones{
+        text-align: center;
+    }
+    .donaciones-conteiner-gap{
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+   .donaciones-pago{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .conteiner{
+        height: 450px;
+        width: 200px;
+    }
+    .contacto-contenedor{
+        flex-direction: column;
+    }
+    .contacto-formulario{
+        align-items: center;
+    }
+    .contacto-formulario h3{
+        font-size: 32px;
+    }
+    .formulario{
+        width: 100%;
+    }
+}   
